@@ -1,3 +1,4 @@
+# Amibroker Plugin QuoteTracker
 # QuoteTracker Revision 
 ## adapting my own http data server
 
