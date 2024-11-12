@@ -1,0 +1,117 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: QT - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x415 /fo"Release/QT.res" /d "NDEBUG" /d "_AFXDLL" "D:\QT\QT.rc"" 
+Creating temporary file "C:\Users\qshuang\AppData\Local\Temp\RSP9463.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/QT.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\QT\ConfigDlg.cpp"
+"D:\QT\Plugin.cpp"
+"D:\QT\QT.cpp"
+]
+Creating command line "cl.exe @C:\Users\qshuang\AppData\Local\Temp\RSP9463.tmp" 
+Creating temporary file "C:\Users\qshuang\AppData\Local\Temp\RSP9464.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/QT.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\QT\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\qshuang\AppData\Local\Temp\RSP9464.tmp" 
+Creating temporary file "C:\Users\qshuang\AppData\Local\Temp\RSP9465.tmp" with contents
+[
+/nologo /base:"0x11200000" /subsystem:windows /dll /incremental:no /pdb:"Release/QT.pdb" /machine:I386 /def:".\QT.def" /out:"Release/QT.dll" /implib:"Release/QT.lib" /opt:ref /opt:nowin98 
+.\Release\ConfigDlg.obj
+.\Release\Plugin.obj
+.\Release\QT.obj
+.\Release\StdAfx.obj
+.\Release\QT.res
+]
+Creating command line "link.exe @C:\Users\qshuang\AppData\Local\Temp\RSP9465.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ConfigDlg.cpp
+Plugin.cpp
+QT.cpp
+Generating Code...
+Linking...
+   Creating library Release/QT.lib and object Release/QT.exp
+Creating temporary file "C:\Users\qshuang\AppData\Local\Temp\RSP9ABF.bat" with contents
+[
+@echo off
+copy .\Release\QT.dll ..\..\Broker\Plugins
+]
+Creating command line "C:\Users\qshuang\AppData\Local\Temp\RSP9ABF.bat"
+
+系统找不到指定的路径。
+已复制         0 个文件。
+执行 c:\windows\system32\cmd.exe 时出错.
+
+
+
+<h3>Results</h3>
+QT.dll - 1 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: QT - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x415 /fo"Debug/QT.res" /d "_DEBUG" /d "_AFXDLL" "D:\QT\QT.rc"" 
+Creating temporary file "C:\Users\qshuang\AppData\Local\Temp\RSP9C76.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/QT.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\QT\ConfigDlg.cpp"
+"D:\QT\Plugin.cpp"
+"D:\QT\QT.cpp"
+]
+Creating command line "cl.exe @C:\Users\qshuang\AppData\Local\Temp\RSP9C76.tmp" 
+Creating temporary file "C:\Users\qshuang\AppData\Local\Temp\RSP9C77.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/QT.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\QT\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\qshuang\AppData\Local\Temp\RSP9C77.tmp" 
+Creating temporary file "C:\Users\qshuang\AppData\Local\Temp\RSP9C78.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/QT.pdb" /debug /machine:I386 /def:".\QT.def" /out:"Debug/QT.dll" /implib:"Debug/QT.lib" /pdbtype:sept 
+.\Debug\ConfigDlg.obj
+.\Debug\Plugin.obj
+.\Debug\QT.obj
+.\Debug\StdAfx.obj
+.\Debug\QT.res
+]
+Creating command line "link.exe @C:\Users\qshuang\AppData\Local\Temp\RSP9C78.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ConfigDlg.cpp
+Plugin.cpp
+QT.cpp
+Generating Code...
+Linking...
+   Creating library Debug/QT.lib and object Debug/QT.exp
+Creating temporary file "C:\Users\qshuang\AppData\Local\Temp\RSPA245.bat" with contents
+[
+@echo off
+copy .\Debug\QT.dll ..\..\Broker\Plugins
+]
+Creating command line "C:\Users\qshuang\AppData\Local\Temp\RSPA245.bat"
+
+系统找不到指定的路径。
+已复制         0 个文件。
+执行 c:\windows\system32\cmd.exe 时出错.
+
+
+
+<h3>Results</h3>
+QT.dll - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
